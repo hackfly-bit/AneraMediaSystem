@@ -33,7 +33,7 @@
                         <td class="px-6 py-4 whitespace-nowrap">
                             <div class="text-sm font-medium text-secondary-900">{{ $project->name }}</div>
                             @if($project->description)
-                                <div class="text-sm text-secondary-500">{{ Str::limit($project->description, 50) }}</div>
+                                <div class="text-sm text-secondary-500">{{ \Illuminate\Support\Str::limit($project->description, 50) }}</div>
                             @endif
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap">

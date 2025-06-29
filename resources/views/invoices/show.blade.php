@@ -54,7 +54,7 @@
                                 {{ $invoice->project->name }}
                             </a>
                             @if($invoice->project->description)
-                                <br><small class="text-secondary-500">{{ Str::limit($invoice->project->description, 100) }}</small>
+                                <br><small class="text-secondary-500">{{  \Illuminate\Support\Str::limit($invoice->project->description, 100) }}</small>
                             @endif
                         </p>
                         @endif

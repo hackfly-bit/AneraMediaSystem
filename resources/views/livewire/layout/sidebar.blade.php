@@ -26,7 +26,7 @@ new class extends Component
     <div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden md:hidden"></div>
 
     <!-- Sidebar -->
-    <aside id="sidebar" class="sidebar bg-neutral-900 dark:bg-neutral-950 text-white min-h-screen flex flex-col expanded custom-scrollbar overflow-y-auto transition-colors duration-200">
+    <aside id="sidebar" class="sidebar bg-neutral-900 dark:bg-neutral-950 text-white h-full flex flex-col expanded custom-scrollbar overflow-y-auto transition-colors duration-200">
     <!-- Sidebar Header -->
     <div class="flex items-center justify-between p-4 border-b border-neutral-700 dark:border-neutral-800">
         <div class="flex items-center space-x-3">

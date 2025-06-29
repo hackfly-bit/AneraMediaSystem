@@ -146,7 +146,7 @@
                             @foreach($invoice->invoiceItems->take(5) as $item)
                             <tr>
                                 <td>
-                                    <small>{{ Str::limit($item->description, 30) }}</small>
+                                    <small>{{  \Illuminate\Support\Str::limit($item->description, 30) }}</small>
                                     <br>
                                     <small class="text-muted">{{ $item->quantity }} × Rp. {{ number_format($item->unit_price, 2) }}</small>
                                 </td>

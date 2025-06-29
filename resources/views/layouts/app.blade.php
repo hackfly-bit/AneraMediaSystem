@@ -19,12 +19,12 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased transition-colors duration-200">
-        <div class="min-h-screen bg-secondary-100 dark:bg-neutral-900 flex transition-colors duration-200">
+        <div class="h-screen bg-secondary-100 dark:bg-neutral-900 flex transition-colors duration-200">
             <!-- Sidebar -->
             <livewire:layout.sidebar />
 
             <!-- Main Content Area -->
-            <div class="flex-1 flex flex-col">
+            <div class="flex-1 flex flex-col h-full overflow-hidden">
                 <!-- Top Header -->
                 <header class="bg-white dark:bg-neutral-800 shadow-sm border-b border-secondary-200 dark:border-neutral-700">
                     <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
@@ -63,7 +63,7 @@
                 @endif
 
                 <!-- Page Content -->
-                <main class="flex-1 p-2 bg-secondary-50 dark:bg-neutral-900 transition-colors duration-200">
+                <main class="flex-1 p-2 bg-secondary-50 dark:bg-neutral-900 transition-colors duration-200 overflow-auto">
                     @isset($slot)
                         {{ $slot }}
                     @else

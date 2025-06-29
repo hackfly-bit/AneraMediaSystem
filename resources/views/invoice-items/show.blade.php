@@ -264,7 +264,7 @@
                     <div class="list-group-item px-0">
                         <div class="d-flex justify-content-between align-items-start">
                             <div class="flex-grow-1">
-                                <h6 class="mb-1">{{ Str::limit($otherItem->description, 40) }}</h6>
+                                <h6 class="mb-1">{{  \Illuminate\Support\Str::limit($otherItem->description, 40) }}</h6>
                                 <small class="text-muted">{{ $otherItem->quantity }} × Rp. {{ number_format($otherItem->unit_price, 2) }}</small>
                             </div>
                             <div class="text-end">
