@@ -7,19 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Tentang Aplikasi Invoice Management
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Aplikasi Invoice Management adalah solusi komprehensif untuk mengelola klien, proyek, dan faktur Anda dengan mudah. Aplikasi ini dirancang untuk menyederhanakan proses penagihan, pelacakan pembayaran, dan pengelolaan data keuangan Anda.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Fitur Utama:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Manajemen Klien:** Kelola daftar klien Anda dengan informasi detail.
+- **Manajemen Proyek:** Lacak proyek yang sedang berjalan dan kaitkan dengan faktur.
+- **Manajemen Faktur:** Buat, kirim, dan lacak faktur dengan status pembayaran (Lunas, Tertunda, Terlambat).
+- **Laporan:** Dapatkan ringkasan dan laporan keuangan untuk analisis yang lebih baik.
+- **Notifikasi:** Pemberitahuan otomatis untuk faktur jatuh tempo dan pembayaran.
+
+Aplikasi ini dibangun menggunakan Laravel, sebuah framework aplikasi web dengan sintaks yang ekspresif dan elegan, memastikan pengalaman pengembangan yang menyenangkan dan efisien.
 
 ## Learning Laravel
 
